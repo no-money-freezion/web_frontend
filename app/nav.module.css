@@ -1,0 +1,63 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9f72e6;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.free {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mainPage {
+  background-color: #ff0000;
+  color: white;
+}
+
+.moreGames, .myProfile, .help, .work {
+  background-color: white;
+  color: black;
+}
+
+.signUp {
+  background-color: black;
+  color: white;
+}
+
+.logIn {
+  background-color: #ff0000;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #a2d3f5;
+  border-radius: 50%;
+}
